@@ -4,20 +4,19 @@
   box-sizing: border-box;
 }
 body{
-  background-color: black;
+  background-color: #222222;
   
 }
 
 section{
   height: 100vh;
-  background-color: black;
+  background-color: #222222;
 }
 
 #myPhoto{
-border: black;
-height: 100%;
-width: 100%;
 
+height: 60%;
+width: 60%;
 }
 
 #landing{
@@ -25,17 +24,27 @@ width: 100%;
 }
 
 #btn-work{
-  background-color: #CEEAE6;
-  color: black;
+  background-color: #1E8481;
+  color: #222222;
 }
 
 #nav{
-  background-color: #CEEAE6;
-  color: black;
+  background-color: #1E8481;
+  opacity: 0.9;
+  height: 3.8rem;
+}
+
+#logoNav{
+  float: left;
+}
+
+#logo{
+  font-size: 2rem;
 }
 
 #aboutMe{
   background-color: wheat;
+
 }
 
 i{
@@ -43,9 +52,31 @@ i{
 }
 
 .hello{
-  width: 10rem;
+  width: 15%;
+  height: 65%;
+}
+
+.hi{
+  width: 15%;
+  height: 65%;
 }
 
 #secondRow{
   width: 28%;
+}
+
+#myName{
+  border-bottom: 2px solid wheat;
+}
+
+#projects{
+  background-color: #222222;
+}
+
+.photo{
+  opacity: 0.5;
+}
+
+.photo:hover{
+  opacity: 1;
 }
