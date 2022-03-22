@@ -1,0 +1,51 @@
+*{
+  color: wheat;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  
+}
+
+section{
+  height: 100vh;
+  background-color: black;
+}
+
+#myPhoto{
+border: black;
+height: 100%;
+width: 100%;
+
+}
+
+#landing{
+  padding-top: 5rem;
+}
+
+#btn-work{
+  background-color: #CEEAE6;
+  color: black;
+}
+
+#nav{
+  background-color: #CEEAE6;
+  color: black;
+}
+
+#aboutMe{
+  background-color: wheat;
+}
+
+i{
+  font-size: 2rem;
+}
+
+.hello{
+  width: 10rem;
+}
+
+#secondRow{
+  width: 28%;
+}
