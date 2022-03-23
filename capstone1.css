@@ -108,6 +108,11 @@ i{
   color: #1E8481;
 }
 
+#send:hover{
+  background-color: #1E8481;
+  color: wheat;
+}
+
 #formGroup{
   color: wheat;
 }
