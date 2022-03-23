@@ -2,18 +2,13 @@
   
   scroll-behavior: smooth;
   box-sizing: border-box;
-  font-family: 'Source Code Pro', cursive;;
+  font-family: 'Source Code Pro', cursive;
 }
 
 
 section{
   background-color: #222222;
   height: auto;
-}
-
-#myPhoto{
-
-
 }
 
 #landing{
