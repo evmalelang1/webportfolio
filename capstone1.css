@@ -13,8 +13,7 @@ section{
 
 #myPhoto{
 
-height: 20rem;
-width: 20rem;
+
 }
 
 #landing{
@@ -23,7 +22,7 @@ width: 20rem;
 }
 
 .links{
-  color: wheat;
+  color: #222222;
 }
 
 #btn-work{
@@ -127,11 +126,12 @@ footer{
 }
 
 #supplementaryFooter{
-  background-color: #1E8481;
+  background-color: wheat;
 }
 
 #lastFooter{
-  background-color: burlywood;
+  background-color: #1E8481;
+  color: wheat;
 }
 
 .ftr{
@@ -139,7 +139,7 @@ footer{
 }
 
 .foooter{
-  color: wheat;
+  color: #222222;
   
 }
 
@@ -149,6 +149,6 @@ footer{
 }
 
 .headFooter{
-  border-bottom: 1px solid wheat;
+  border-bottom: 1px solid #222222;
   display: inline-block;
 }

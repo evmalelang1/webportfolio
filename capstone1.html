@@ -19,7 +19,10 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand navbar-dark sticky-top " id="nav">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top " id="nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#simple-nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
     <a href="#landing" class="nav-link"><i class="fas fa-code" id="logo"></i></a>
     <div class="collapse navbar-collapse justify-content-end" id="simple-nav">
       <ul class="navbar-nav mr-3">
@@ -30,7 +33,7 @@
           <a href="#aboutMe" class="nav-link text-center">About Me</a>
         </li>
         <li class="nav-item ml-2">
-          <a href="#projects" class="nav-link text-center">Projects</a>
+          <a href="#projects" class="nav-link text-center">Gallery</a>
         </li>
         <li class="nav-item ml-2">
           <a href="#contactMe" class="nav-link text-center">Contact Me</a>
@@ -52,7 +55,7 @@
             Hi! I am EJ. I am a Full Stack Web Developer based in the Philippines. A former athlete turned web
             developer. 🏸
           </p>
-          <button type="button" class="btn btn-primary btn-lg m-5" id="btn-work">View Projects</button>
+          <a href="#projects"><button type="button" class="btn btn-primary btn-lg m-5" id="btn-work">View Gallery</button></a>
           <div class="d-flex justify-content-center">
             <a href="https://facebook.com" target="_blank" class="mx-3">
               <i class="fab fa-facebook links"></i>
@@ -109,7 +112,7 @@
 
   <!-- Projects Section -->
   <section id="projects">
-    <h2 class="text-center py-5 py-lg-5">My Projects</h2>
+    <h2 class="text-center py-5 py-lg-5">My Gallery</h2>
     <div class="row py-3 mx-3">
       <div class="col-md-6 mx-auto my-3">
 
@@ -205,7 +208,7 @@
               <input type="tel" class="form-control" id="number" placeholder="+63 900 000 0000" required autocomplete>
             </div>
             <div class="form-group">
-              <label for="subject" class="my-2">Subject</label>
+              <label for="subject" class="my-2">Subject:</label>
               <select class="form-control" id="subject">
                 <option>Quotation</option>
                 <option>Inquiry</option>
@@ -214,7 +217,7 @@
               </select>
             </div>
             <div class="form-group">
-              <label for="message" class="my-2">Message</label>
+              <label for="message" class="my-2">Message:</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" required autocomplete></textarea>
             </div>
             <div class="text-center">
@@ -247,22 +250,22 @@
 
 <!-- footer -->
   <footer>
-    <div class="container-fluid " id="supplementaryFooter">
+    <div class="container-fluid" id="supplementaryFooter">
       <div class="row d-flex justify-content-around">
-        <div class="col-4 text-center text-dark">
+        <div class="col-6 col-lg-4 text-center text-dark">
           <h4 class="my-3 foooter headFooter">Quick Links</h4>
           <p class="ftr"><a href="#landing" class="foooter">Home</a></p>
           <p class="ftr"><a href="#aboutMe" class="foooter">About Me</a></p>
           <p class="ftr"><a href="#projects" class="foooter">Projects</a></p>
           <p class="ftr"><a href="#contactMe" class="foooter">Contact Me</a></p>
         </div>
-        <div class="col-4 text-center text-dark">
-          <h4 class="my-3 foooter">Contact me</h4>
-          <p class="foooter">11 Bardakulan St., San Mateo, Rizal</p>
+        <div class="col-6 col-lg-4 text-center text-dark">
+          <h4 class="my-3 foooter headFooter">Contact me</h4>
+          <p class="foooter">San Mateo, Rizal</p>
           <p class="foooter">tel: (02) 123-12-12/(+63)9270505050</p>
           <p class="foooter">email: ejvmalelang@gmail.com</p>
         </div>
-        <div class="col-4 text-center text-dark">
+        <div class="col-6 col-lg-4 text-center text-dark">
           <div>
             <h4 class="my-3 foooter headFooter">Follow me on</h4>
           </div>
