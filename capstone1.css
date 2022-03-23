@@ -1,50 +1,62 @@
 *{
-  color: wheat;
+  
   scroll-behavior: smooth;
   box-sizing: border-box;
-}
-body{
-  background-color: #222222;
-  
+  font-family: 'Source Code Pro', cursive;;
 }
 
+
 section{
- 
   background-color: #222222;
+  height: auto;
 }
 
 #myPhoto{
 
-height: 60%;
-width: 60%;
+height: 20rem;
+width: 20rem;
 }
 
 #landing{
   padding-top: 5rem;
+  color: wheat;
+}
+
+.links{
+  color: wheat;
 }
 
 #btn-work{
   background-color: #1E8481;
   color: #222222;
+  border-color: #1E8481;
+}
+
+#btn-work:hover{
+  background-color: wheat;
+  outline-color:#1E8481 ;
 }
 
 #nav{
   background-color: #1E8481;
   opacity: 0.9;
   height: 3.8rem;
+  color: wheat;
 }
 
 #logoNav{
   float: left;
+  color: wheat;
 }
 
 #logo{
   font-size: 2rem;
+  color: wheat;
 }
 
 #aboutMe{
   background-color: wheat;
-
+  color: #1E8481;
 }
 
 i{
@@ -71,6 +83,7 @@ i{
 
 #projects{
   background-color: #222222;
+  color: wheat;
 }
 
 .photo{
@@ -79,4 +92,58 @@ i{
 
 .photo:hover{
   opacity: 1;
+}
+
+#contactMe{
+  background-color: wheat;
+}
+
+#form{
+  background-color: #222222;
+  color: wheat;
+}
+
+#send{
+  background-color: wheat;
+  color: #1E8481;
+}
+
+#formGroup{
+  color: wheat;
+}
+
+#containerAbtMe{
+  background-color: wheat;
+  
+}
+
+footer{
+  background-color: #1E8481;
+}
+
+#supplementaryFooter{
+  background-color: #1E8481;
+}
+
+#lastFooter{
+  background-color: burlywood;
+}
+
+.ftr{
+  margin-bottom: 0px;
+}
+
+.foooter{
+  color: wheat;
+  
+}
+
+#abtMe{
+  border-bottom: 2px solid #1E8481;
+  display: inline;
+}
+
+.headFooter{
+  border-bottom: 1px solid wheat;
+  display: inline-block;
 }
