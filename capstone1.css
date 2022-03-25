@@ -12,7 +12,7 @@ ul{
 
 section{
   background-color: #222222;
-  height: auto;
+  height: 100%;
 }
 
 #landing{
@@ -21,7 +21,7 @@ section{
 }
 
 .links{
-  color: #222222;
+  color: wheat;
 }
 
 #btn-work{
@@ -54,7 +54,7 @@ section{
 
 #aboutMe{
   background-color: wheat;
-  color: #1E8481;
+  color: #222222;
 }
 
 i{
@@ -62,8 +62,8 @@ i{
 }
 
 .hello{
-  width: 15%;
-  height: 65%;
+  height: 20rem;
+  width: 30rem;
 }
 
 .hi{
@@ -150,4 +150,8 @@ footer{
 .headFooter{
   border-bottom: 1px solid #222222;
   display: inline-block;
+}
+
+.linksFooter{
+  color: #222222;
 }
